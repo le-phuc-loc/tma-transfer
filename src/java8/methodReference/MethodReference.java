@@ -9,6 +9,7 @@ public class MethodReference {
 
         System.out.println(doAction(a, b, (x, y) -> x + y));
         System.out.println(doAction(a, b, mathUtils::minus));
+        System.out.println("ádhuiashduhsiauhdsad");
     }
 
     public static int doAction(int a, int b, Execute func) {
